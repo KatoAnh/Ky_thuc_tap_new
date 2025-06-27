@@ -1,0 +1,10 @@
+1. Tạo Models 
+Tạo các class:
+File: Models/Student.cs
+File: Models/Course.cs
+File: Models/Enrollment.cs
+Cấu hình DbContext
+ Migrations
+CRUD (Create, Read, Update, Delete)
+Truy vấn bằng LINQ to Entities
+Tạo Service

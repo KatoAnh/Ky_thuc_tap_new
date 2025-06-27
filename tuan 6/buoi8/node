@@ -1,0 +1,7 @@
+NumPy: Xử lý mảng dữ liệu, tính toán thống kê cơ bản, lưu/tải file nhị phân .npy.
+SciPy: Phân tích khoa học nâng cao (hồi quy tuyến tính, tối ưu hóa).
+Matplotlib: (Tùy chọn) Trực quan hóa dữ liệu, vẽ biểu đồ để dễ hiểu.
+
+
+Sử dụng định dạng file .npy để lưu trữ dữ liệu hiệu quả giữa các lần chạy chương trình.
+Áp dụng Hồi quy tuyến tính để mô hình hóa và dự báo hiệu suất.

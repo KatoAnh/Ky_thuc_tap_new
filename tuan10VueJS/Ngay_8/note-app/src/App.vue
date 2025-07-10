@@ -1,28 +1,18 @@
 <template>
-  <div id="app">
-    <md-app md-waterfall md-mode="fixed">
-      <!-- Navigation Drawer -->
-      <NavDrawer />
-
-      <!-- Main Content -->
-      <md-app-content>
-        <router-view />
-      </md-app-content>
-    </md-app>
-  </div>
+  <v-app>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
 
-<script setup>
-import NavDrawer from './components/NavDrawer.vue'
-</script>
+<script>
 
-<style>
+export default {
+  name: 'App',
 
-
-#app {
-  font-family: 'Roboto', sans-serif;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px;
+  data: () => ({
+   
+  }),
 }
-</style>
+</script>

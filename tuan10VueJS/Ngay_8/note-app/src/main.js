@@ -1,13 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-
-// Vuetify
-import { vuetify } from './plugins/vuetify' // ✅ chỉ dùng 1 lần
-
-// Router
 import router from './router'
+import vuetify from './plugins/vuetify'
+import { loadFonts } from './plugins/webfontloader'
 
-const app = createApp(App)
-app.use(router)
-app.use(vuetify)
-app.mount('#app')
+loadFonts()
+
+createApp(App)
+  .use(router)
+  .use(vuetify)
+  .mount('#app')
